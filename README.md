@@ -5,3 +5,5 @@ Data_Aggregator: Weather Data (hourly) is downloaded from Government of Canada w
 Data_preprocess: As XGBoot algorithm requires parameters to be either in Int/Float/Boolean or as categorical values, we use this Python script to pre-process the aggregated data to make it ready to be ingested by XGBoost predictor.
 
 XGBPredictor: This Script uses XGBoost algorithm to predict the power consumption of the NS province.
+
+### Model predicts the future power consumption metric with a RMSE of 485.39
